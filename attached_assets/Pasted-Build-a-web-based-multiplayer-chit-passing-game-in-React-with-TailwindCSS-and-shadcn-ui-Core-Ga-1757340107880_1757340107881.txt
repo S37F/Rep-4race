@@ -1,0 +1,89 @@
+Build a web-based multiplayer chit-passing game in React with TailwindCSS and shadcn/ui.
+
+🔹 Core Game Concept
+
+4 players maximum.
+
+4 categories (e.g., Fruits, Cars, Animals, Colors).
+
+16 chits total (4 per category).
+
+Each player starts with 4 random chits.
+
+On each turn, each player selects one chit to pass clockwise.
+
+After passing, check if any player has 4 chits of the same category → that player wins first place.
+
+Remaining players can claim 2nd, 3rd, and 4th place via buttons.
+
+Game ends once all 4 places are assigned.
+
+🔹 Features to Include
+
+Minimal, professional UI
+
+TailwindCSS for clean styling.
+
+shadcn/ui components for cards, buttons, dialogs.
+
+Grid layout for player boards.
+
+Smooth Framer Motion animations when passing chits.
+
+Multiplayer (Local via Join Code)
+
+One player creates a game → generates a join code.
+
+Other players enter the code to join.
+
+Players share the same session until game ends.
+
+Gameplay Mechanics
+
+Turn-based system with chit selection + clockwise passing.
+
+Automatic win detection (4 identical chits).
+
+Ranking assignment system (auto for 1st, manual buttons for 2nd–4th).
+
+Additional Features
+
+No turn timer.
+
+Animations for chit passing 🔄.
+
+Leaderboard/history of winners 🏆 (keeps track of previous matches).
+
+Reset button → start a new game with fresh shuffle.
+
+Deployment
+
+Fully responsive (desktop + mobile).
+
+Ready to deploy on Vercel.
+
+Include minimal instructions in README for running locally (npm install, npm run dev) and deploying.
+
+🔹 Tech Stack
+
+React + Vite/Next.js (developer’s choice).
+
+TailwindCSS for styling.
+
+shadcn/ui for components.
+
+Framer Motion for animations.
+
+Supabase or Firebase Realtime Database for managing local multiplayer sessions with join code.
+
+🔹 Deliverables
+
+Fully working game with clean UI.
+
+Components: PlayerBoard, Chit, GameBoard, WinnerModal, Leaderboard.
+
+Logic separated from UI (game state management via Zustand or React Context).
+
+Simple README with setup + Vercel deployment instructions.
+
+👉 You can feed this into an AI coding assistant, or I can now start drafting the full React code structure for you (components + state management).

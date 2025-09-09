@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+debug.log*
+logs/
+
+# Vercel/Deployment
+.vercel/
+.local/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
